@@ -1,6 +1,7 @@
 # Just a quick one off the get the answer
 # Nothing fancy, skipping input checks, etc.
 
+
 filename = "input01.txt"
 
 list1 = []
@@ -17,6 +18,7 @@ with open(filename, "r") as file:
 
 list1.sort()
 list2.sort()
+
 dist = 0
 for i in range(len(list1)):
     dist += abs(list1[i] - list2[i])
